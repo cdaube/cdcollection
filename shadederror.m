@@ -3,7 +3,7 @@ function [hl,hr] = shadederror(x,plotData,varargin)
 % conditions together with a shaded region indicating the +- standard error
 % needs: 
 % x - vector containing the x spacing (conditions)
-% plotData - as many columns as conditions in x, as many rows as you have
+% plotData - as many rows as conditions in x, as many columns as you have
 %   data points, entries in the 3rd dimension will be plotted as separate
 %   lines
 % distinguishable_colors.m by Timothy E. Holy (function that generates
